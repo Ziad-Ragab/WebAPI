@@ -10,7 +10,6 @@ namespace WebAPIDotNet.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
 
     public class InstructorController : ControllerBase
     {
